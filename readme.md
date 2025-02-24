@@ -31,17 +31,17 @@ Ensure `dataset.json` is included in the dataset folder. The dataset.json is pro
 
 ## Preprocessing
 ```bash
-!nnUNet_raw="/content/nnUNet_raw" nnUNet_preprocessed="/content/nnUNet_preprocessed" nnUNet_results="/content/drive/MyDrive/nnUNet_results" nnUNetv2_plan_and_preprocess -d 1 --verify_dataset_integrity
+bash preprocess.sh
 ```
 
 ## Training
 ```bash
-!nnUNet_raw="/content/nnUNet_raw" nnUNet_preprocessed="/content/nnUNet_preprocessed" nnUNet_results="/content/drive/MyDrive/nnUNet_results" nnUNetv2_train 1 2d 0 --val_best --c
+bash train.sh
 ```
 
 ## Inference
 ```bash
-!nnUNet_raw="/content/nnUNet_raw" nnUNet_preprocessed="/content/nnUNet_preprocessed" nnUNet_results="/content/drive/MyDrive/nnUNet_results" nnUNet_predict -i /content/nnUNet_raw/Dataset001_mitochondria/imagesTs -o /content/nnUNet_raw/Dataset001_mitochondria/predictionTs -d 1 -c 2d -f 0 -chk checkpoint_best.pth
+bash inference.sh
 ```
 
 ## Evaluation
