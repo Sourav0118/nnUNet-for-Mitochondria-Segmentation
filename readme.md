@@ -3,6 +3,8 @@
 ## Overview
 This repository provides a pipeline for instance segmentation of mitochondria from Electron Microscopy Images using nn-UNet. The dataset used can be downloaded from [here](https://www.epfl.ch/labs/cvlab/data/data-em/) It also includes scripts for training, inference, and evaluation of nnUNet models using Jaccard Index and Dice Score metrics.
 
+Official implementation of nn-UNet: [Link](https://github.com/MIC-DKFZ/nnUNet)
+
 ## Dataset Structure
 Ensure your dataset follows the nnUNet format:
 ```
