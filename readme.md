@@ -51,7 +51,7 @@ python evaluation.py
 ```
 
 ## Checkpoints
-Download pretrained model checkpoints from [this link](YOUR_CHECKPOINT_LINK_HERE).
+Download pretrained model checkpoints from [this link](https://drive.google.com/file/d/1-bNrW_EOqXJvxymwArBw-Jfd6-qHP1Ax/view?usp=sharing).
 
 ## Results
 | Metric              | Score  |
