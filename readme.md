@@ -53,7 +53,7 @@ python evaluation.py
 ```
 
 ## Checkpoints
-Download pretrained model checkpoints from [this link](https://drive.google.com/file/d/1-bNrW_EOqXJvxymwArBw-Jfd6-qHP1Ax/view?usp=sharing).
+Give the shared nnUNet_results folder as the path to nnUNet_results. [nnUNet_results](https://drive.google.com/drive/folders/1PfeXNPlkOSEQuZuT8qmWDTMoTOdO_96y?usp=drive_link). This folder contains the checkpoints and the rest of the training details along with log files. 
 
 ## Results
 | Metric              | Score  |
